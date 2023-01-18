@@ -1,0 +1,22 @@
+{
+  "name": "megumin",
+  "version": "1.0.0",
+  "author": "Chloe Arciniega <solely@riseup.net>",
+  "license": "zlib",
+  "private": true,
+  "main": "src/index.js",
+  "scripts": {
+    "format:prettier": "prettier --w --plugin-search-dir=. .",
+    "lint:eslint": "eslint --fix src/**/*.{ts,astro}",
+    "start": "node bot",
+    "test": "eslint src/**/*.js && prettier --c ."
+  },
+  "packageManager": "yarn@3.3.1",
+  "dependencies": {
+    "@types/eslint": "^8.4.10",
+    "@types/prettier": "^2.7.2",
+    "discord.js": "^14.7.1",
+    "eslint": "^8.32.0",
+    "prettier": "^2.8.3"
+  }
+}
