@@ -7,8 +7,8 @@
   "main": "src/index.js",
   "scripts": {
     "format:prettier": "prettier --w --plugin-search-dir=. .",
-    "lint:eslint": "eslint --fix src/**/*.{ts,astro}",
-    "start": "node bot",
+    "lint:eslint": "eslint --fix src/**/*.js",
+    "start": "node src/index",
     "test": "eslint src/**/*.js && prettier --c ."
   },
   "packageManager": "yarn@3.3.1",
